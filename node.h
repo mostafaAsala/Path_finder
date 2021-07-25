@@ -2,15 +2,21 @@
 #define NODE_H
 
 #include <QObject>
-
-class Node : public QObject
+#include<QGraphicsObject>
+class Node : public QGraphicsObject
 {
     Q_OBJECT
 public:
     explicit Node(QObject *parent = nullptr);
-    int x;
-    int y;
+    QRectF boundingRect() const;
+    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget = 0);
+
 signals:
+    void clicked_(int index);
+protected:
+    void mouseReleaseEvent(QGraphicsSceneMouseEvent *e);
+    void mousePressEvent(QGraphicsSceneMouseEvent *e);
+
 
 };
 
