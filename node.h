@@ -16,8 +16,13 @@ signals:
 protected:
     void mouseReleaseEvent(QGraphicsSceneMouseEvent *e);
     void mousePressEvent(QGraphicsSceneMouseEvent *e);
+<<<<<<< HEAD
     int x;
     int branch_a;
+=======
+    int xxx;
+    int branch_b;
+>>>>>>> branch-b
 
 };
 
