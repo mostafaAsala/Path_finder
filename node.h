@@ -16,7 +16,7 @@ signals:
 protected:
     void mouseReleaseEvent(QGraphicsSceneMouseEvent *e);
     void mousePressEvent(QGraphicsSceneMouseEvent *e);
-
+    int xxx;
 
 };
 
