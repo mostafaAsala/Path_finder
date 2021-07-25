@@ -17,6 +17,7 @@ protected:
     void mouseReleaseEvent(QGraphicsSceneMouseEvent *e);
     void mousePressEvent(QGraphicsSceneMouseEvent *e);
     int xxx;
+    int branch_b;
 
 };
 
