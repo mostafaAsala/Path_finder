@@ -9,6 +9,7 @@ class Node : public QObject
 public:
     explicit Node(QObject *parent = nullptr);
     int x;
+    int y;
 signals:
 
 };
