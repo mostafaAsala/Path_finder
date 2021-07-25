@@ -1,6 +1,6 @@
 #ifndef NODE_H
 #define NODE_H
-
+//    Not working yet
 #include <QObject>
 #include<QGraphicsObject>
 class Node : public QGraphicsObject
@@ -16,13 +16,9 @@ signals:
 protected:
     void mouseReleaseEvent(QGraphicsSceneMouseEvent *e);
     void mousePressEvent(QGraphicsSceneMouseEvent *e);
-<<<<<<< HEAD
     int x;
     int branch_a;
-=======
-    int xxx;
-    int branch_b;
->>>>>>> branch-b
+
 
 };
 
